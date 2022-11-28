@@ -13,7 +13,7 @@ public class Adapterassignment implements MediaPlayer {
    }
 
    @Override
-   public void play(String audioType, String fileName) {
+   public void playMusic(String audioType, String fileName) {
    
       if(audioType.equalsIgnoreCase("vlc")){
          advancedMusicPlayer.playVlc(fileName);
