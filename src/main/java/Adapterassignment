@@ -1,4 +1,4 @@
-public class Adapterassignment implements MediaPlayer {
+public class Adapterassignment implements MusicPlayer {
 
    AdvancedMediaPlayer advancedMusicPlayer;
 
