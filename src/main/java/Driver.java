@@ -1,4 +1,4 @@
-public class AdapterPatternDemo {
+public class Driver {
    public static void main(String[] args) {
       AudioPlayer in = new AudioPlayer();
       in.playm("vlc", "inthandam.vlc");
