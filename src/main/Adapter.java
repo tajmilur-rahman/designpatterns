@@ -22,5 +22,6 @@ public class Adapter implements MusicPlayer {
         else if(audioType.equalsIgnoreCase("mp4")){
             advancedMusicPlayer.playMp4Player(fileName);
         }
+        return audioType;
     }
 }
