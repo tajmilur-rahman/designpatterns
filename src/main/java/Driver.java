@@ -1,14 +1,13 @@
 public class Driver {
     public static void main(String[] args) {
-        AudioPlayer audioPlayer = new AudioPlayer();
-        audioPlayer.playMusic("mp3", "song1.mp3");
+       
+       AudioPlayer aplayer = new AudioPlayer();
 
-        Mp4Player mp4MusicPlayer = new Mp4Player();
-        mp4MusicPlayer.playMp4Player("song2.mp4");
-
-        VlcPlayer vlcMusicPlayer = new VlcPlayer();
-        vlcMusicPlayer.playVlcPlayer("song3.vlc");
-
-        audioPlayer.playMusic("wma", "song4.wma");
+       aplayer.play("wap", "Example4.wap");
+      aplayer.play("mp3", "Example.mp3");
+      aplayer.play("mp4", "Example2.mp4");
+      aplayer.play("vlc", "Example3.vlc");
+      
+   }
     }
 }
