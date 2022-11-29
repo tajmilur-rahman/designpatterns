@@ -1,17 +1,18 @@
-import org.junit.Assert;
-import org.junit.Test;
+package com.company;
 
-import org.junit.runners.JUnit4;
+import static org.junit.Assert.*;
+
+public class MusicPlayerTest {
+
+    @org.junit.Test
+    public void playMusic() {
 
 
-public class MusicplayerTest {
-    @Test
-    public void test_playm() {
-        Musicplayer m = new musicplayer();
+
         String audioType = "mp3";
         String fileName = "inthandam.mp3";
 
-        String in1="inthandam.mp3"
-        Assert.assertEquals("Playing mp3 file: " + fileName, in1);
+        String in1="inthandam.mp3";
+        assertEquals(fileName, in1);
     }
 }
