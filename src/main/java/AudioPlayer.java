@@ -1,7 +1,7 @@
 public class AudioPlayer implements MusicPlayer {
     MusicPlayer player;
     @Override
-    public void playFile(String audioType, String fileName) {
+    public void playMusic(String audioType, String fileName) {
         if(audioType.equalsIgnoreCase("mp3")) {
             System.out.println("Play music file: " + fileName);
         } else if (audioType.equalsIgnoreCase("vlc") || audioType.equalsIgnoreCase("mp4")) {
