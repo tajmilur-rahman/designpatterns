@@ -1,12 +1,14 @@
-public class Driver {
-   public static void main(String[] args) {
-      AudioPlayer in = new AudioPlayer();
-      in.playm("vlc", "inthandam.vlc");
-      in.playm("wma", "aaseethadevaina.wma");
+package com.company;
 
-      in.playm("mp3", "priyathama.mp3");
-      in.playm("mp4", "nannakuprematho.mp4");
-      
-      
-   }
+public class Driver {
+    public static void main(String[] args) {
+        AudioPlayer in = new AudioPlayer();
+        in.playMusic("vlc", "inthandam.vlc");
+        in.playMusic("wma", "aaseethadevaina.wma");
+
+        in.playMusic("mp3", "priyathama.mp3");
+        in.playMusic("mp4", "nannakuprematho.mp4");
+
+
+    }
 }
