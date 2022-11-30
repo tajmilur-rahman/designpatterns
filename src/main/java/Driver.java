@@ -3,10 +3,10 @@ public class Driver {
        
        AudioPlayer aplayer = new AudioPlayer();
 
-       aplayer.play("wap", "Example4.wap");
-      aplayer.play("mp3", "Example.mp3");
-      aplayer.play("mp4", "Example2.mp4");
-      aplayer.play("vlc", "Example3.vlc");
+       aplayer.playMusic("wap", "Example4.wap");
+      aplayer.playMusic("mp3", "Example.mp3");
+      aplayer.playMusic("mp4", "Example2.mp4");
+      aplayer.playMusic("vlc", "Example3.vlc");
       
    }
     
