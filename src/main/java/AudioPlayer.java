@@ -7,7 +7,7 @@ public class AudioPlayer implements MusicPlayer {
         }
         else if (audioType.equalsIgnoreCase("vlc")||audioType.equals("mp4"))
         {
-          AdapterPattern app=new AdapterPattern(audioType);
+          Adapter app=new Adapter(audioType);
           app.playMusic(audioType, fileName);
         }
         else {
