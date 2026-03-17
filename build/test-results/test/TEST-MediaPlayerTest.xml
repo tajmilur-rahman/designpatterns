@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MediaPlayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-17T19:31:54" hostname="Tajmilurs-Mac-mini.local" time="0.006">
-  <properties/>
-  <testcase name="test_playMusic()" classname="MediaPlayerTest" time="0.006"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
