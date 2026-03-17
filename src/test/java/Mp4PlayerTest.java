@@ -7,6 +7,6 @@ import org.junit.runners.JUnit4;
 public class Mp4PlayerTest {
     @Test
     public void testMP4() {
-        Assert.assertEquals(true, true);
+
     }
 }

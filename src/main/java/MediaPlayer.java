@@ -1,10 +1,10 @@
 public class MediaPlayer implements MusicPlayer {
     @Override
-    public String playMusic(String audioType, String fileName) {
+    public void playMusic(String audioType, String fileName) {
         if(audioType.equalsIgnoreCase("mp3")) {
-            return "Playing mp3 file: " + fileName;
+            System.out.println("Playing mp3 file: " + fileName);
         } else {
-            return "Audio type not supported for the file: " + fileName;
+            System.out.println("Audio type not supported for the file: " + fileName);
         }
     }
 }

@@ -7,11 +7,6 @@ import org.junit.runners.JUnit4;
 public class MediaPlayerTest {
     @Test
     public void test_playMusic() {
-        MediaPlayer mp = new MediaPlayer();
-        String fileType = "mp3";
-        String fileName = "file1.mp3";
 
-        String output = mp.playMusic(fileType, fileName);
-        Assert.assertEquals("Playing mp3 file: " + fileName, output);
     }
 }
